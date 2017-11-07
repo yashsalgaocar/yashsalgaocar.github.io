@@ -18,12 +18,14 @@ body {
 }
 
 #fsae-video{
-width: 99vw;
+width: 100vw;
+height: 100vh;
 filter: grayscale(90%);
 }
 #wrapper {
   width: 100%;
   background-color: white;
+  height: auto;
 }
 
 #content {
@@ -60,19 +62,20 @@ filter: grayscale(90%);
   transform: translateX(-50%);
   width: 100px;
 }
-
-
 #intro {
-  height: 100vh;
+  height: auto;
 }
 
 #project-title{
-  background-color: #e0e0e0;
-  font-size: 75px;
+  width: 200px;
+  height: auto;
+  font-size: 30px;
+  color: white;
   position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-align: center;
 }
 .projects {
   background-color: grey;
@@ -98,5 +101,9 @@ footer {
   }
   #content {
     text-align: center;
+  }
+
+  h2 {
+
   }
 }
