@@ -108,13 +108,14 @@ margin: 0px;
 }
 
 #twoel img {
-transform: translate(140%,-5%);
-width: 500px;
+/*transform: translate(140%,-5%);*/
+position: right;
+width: 35%;
 }
 
 #threeel img {
 transform: translate(40%,100%);
-width: 500px;
+width: 35%;
 }
 
 #oldtwoel img {
