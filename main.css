@@ -3,7 +3,7 @@
 
 body {
   font-family: 'Neuton', serif;
-  font-size: 20px;
+  font-size: 24px;
   background-color: black;
   width: 100%;
   margin: 0px;
@@ -27,21 +27,24 @@ object-fit: fill;
   width: 100%;
   background-color: white;
   height: auto;
+  transform: translate(0, -2%);
 }
 
 #content {
   width: 60%;
+  height: 400px;
   margin: auto;
   padding-top: 5%;
   padding-bottom: 5%;
-  line-height: 30px;
+  /*line-height: 30px;*/
 }
 
 #content img {
-  width: 200px;
+  width: 300px;
   float: right;
   padding-left: 5%;
   padding-bottom: 5%;
+  transform: translate(27%, -10%);
 }
 
 .centered {
@@ -65,7 +68,6 @@ object-fit: fill;
   transform: translateX(-50%);
   width: 100px;
 }
-
 
 #project-title{
   width: 200px;
@@ -97,7 +99,8 @@ margin: 0px;
   color: white;
   float: right;
   width: 40%;
-  transform: translate(-100%, -75%);
+  transform: translate(-100%, -58%);
+  font-size: 24px;
 }
 
 #title{
@@ -119,6 +122,33 @@ transform: translate(40%,300%);
 width: 500px;
 }
 
+#project2title{
+  background-color: white;
+  width: 188.7%;
+  height: 500px;
+  font-size: 24px;
+  color: black;
+  transform: translate(-47%, 120%);
+  text-align: center;
+}
+
+#project2 img{
+  float: left;
+  width: 300px;
+  padding: 15px;
+  transform: translate(13%, 130%);
+}
+#p2content{
+  width: 30%;
+  transform: translate(50%, 0%);
+  margin: auto;
+  text-align: left;
+}
+#kuka{
+  float: right;
+  width: 400px;
+  transform: translate(130%, 50%);
+}
 
 footer {
   background-color: white;
