@@ -14,6 +14,9 @@ body {
 
 }
 
+.lead{
+
+}
 .header-image {
     top: 0%;
     display: block;
@@ -35,16 +38,19 @@ body {
     font-size: 60px;
     color: white;
     /*transform: translate(-3%,-330%);*/
-    text-shadow: 1px 1px 2px #000000
+    text-shadow: 1px 1px 2px #000000;
 }
 
 .headline h2 {
     font-size: 45px;
     color: white;
     /*transform: translate(-3%,-400%);*/
-    text-shadow: 1px 1px 2px #000000
+    text-shadow: 1px 1px 2px #000000;
 }
 
+.about-header{
+    font-size: 50px;
+}
 .featurette-divider {
     margin: 80px 0;
 }
@@ -55,23 +61,53 @@ body {
 
 .featurette-image.pull-left {
     margin-right: 40px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 500px;
 }
 
 .featurette-image.pull-right {
     margin-left: 40px;
 }
 
-.featurette-heading {
-    font-size: 50px;
+.third-element {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    align-content: right;
+    transform: translate(90%,-100.1%);
 }
 
+.featurette-heading {
+    font-size: 35px;
+    text-align: center;
+}
+.projects-heading{
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+#collage img{
+    width: 1000px;
+    padding: 5%;
+    display: block;
+    margin: 0 auto;
+}
+
+#services{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
 #services img{
-    width: 600px;
+ 
 }
 
 #kuka{
-    width: 50%;
+    width: 55%;
     height: auto;
+    padding: 5%;
+    display: block;
+    margin: 0 auto;
 }
 
 footer {
