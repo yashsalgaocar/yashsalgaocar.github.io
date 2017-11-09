@@ -8,10 +8,117 @@ body {
   padding-top: 54px;
 }
 
+<<<<<<< HEAD
 @media (min-width: 992px) {
   body {
     padding-top: 56px;
   }
+=======
+/* Fade in animation */
+@keyframes fade {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+#fsae-video{
+width: 100%;
+height: 100vh;
+filter: grayscale(90%);
+object-fit: fill;
+}
+#wrapper {
+  width: 100%;
+  background-color: white;
+  height: auto;
+  transform: translate(0, -2%);
+}
+
+#content {
+  width: 60%;
+  height: 400px;
+  margin: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  /*line-height: 30px;*/
+}
+
+#content img {
+  width: 300px;
+  float: right;
+  padding-left: 5%;
+  padding-bottom: 5%;
+  transform: translate(27%, -10%);
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#name {
+  font-size: 75px;
+  color: white;
+  z-index: -100;
+
+}
+
+#gear {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+}
+
+#project-title{
+  width: 200px;
+  height: auto;
+  font-size: 30px;
+  color: white;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /*text-align: center;*/
+}
+.projects {
+  background-color: grey;
+}
+
+#project1 img {
+  float: left;
+  width: 200px;
+  padding: 15px;
+  transform: translate(13%, 10%);
+}
+#project1{
+width: 50%;
+margin: 0px;
+}
+
+#project1-title{
+  color: white;
+  float: right;
+  width: 40%;
+  transform: translate(-100%, -58%);
+  font-size: 24px;
+}
+
+#title{
+  text-align: center;
+}
+
+#twoel img {
+transform: translate(140%,-5%);
+width: 500px;
+}
+
+#threeel img {
+transform: translate(40%,100%);
+width: 500px;
+>>>>>>> parent of 357d116... backup before bootstrap
 }
 
 header.masthead {
