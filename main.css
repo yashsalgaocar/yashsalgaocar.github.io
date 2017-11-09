@@ -117,6 +117,14 @@ width: 500px;
 
 #threeel img {
 transform: translate(40%,100%);
+<<<<<<< HEAD
+=======
+width: 500px;
+}
+
+#oldtwoel img {
+transform: translate(40%,300%);
+>>>>>>> parent of 357d116... backup before bootstrap
 width: 500px;
 >>>>>>> parent of 357d116... backup before bootstrap
 }
