@@ -110,6 +110,38 @@ body {
     display: block;
     margin: 0 auto;
 }
+#flow img{
+ display: block;
+    margin: 0 auto;
+}
+
+#employer2 img{
+    width: 33.3%;
+    float: left;
+}
+#employer2 img:hover {
+  -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(80%); /* FF 35+ */
+  transition-duration: 1.3s;
+}
+#employer1 img{
+    width: 33.3%;
+    float: left;
+}
+#employer1 img:hover {
+  -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(100%); /* FF 35+ */
+  transition-duration: 1.3s;
+}
+#employer3 img{
+    width: 33.3%;
+    float: left;
+}
+#employer3 img:hover {
+  -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(80%); /* FF 35+ */
+  transition-duration: 1.3s;
+}
 
 footer {
     margin: 50px 0;
