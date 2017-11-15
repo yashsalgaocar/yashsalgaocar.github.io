@@ -120,27 +120,30 @@ body {
     float: left;
 }
 #employer2 img:hover {
-  -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-  filter: grayscale(80%); /* FF 35+ */
-  transition-duration: 1.3s;
+ /* -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  /*filter: grayscale(80%); /* FF 35+ */*/
+  /*transition-duration: 1.3s;*/
+  cursor:pointer;
+    margin-top: 7px;
+    transition-duration: 1.3s;
 }
 #employer1 img{
     width: 33.3%;
     float: left;
 }
 #employer1 img:hover {
-  -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-  filter: grayscale(100%); /* FF 35+ */
-  transition-duration: 1.3s;
+    cursor:pointer;
+    margin-top: 7px;
+    transition-duration: 1.3s;
 }
 #employer3 img{
     width: 33.3%;
     float: left;
 }
 #employer3 img:hover {
-  -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-  filter: grayscale(80%); /* FF 35+ */
-  transition-duration: 1.3s;
+  cursor:pointer;
+    margin-top: 7px;
+    transition-duration: 1.3s;
 }
 
 footer {
