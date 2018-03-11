@@ -82,6 +82,11 @@ body {
     font-size: 35px;
     text-align: center;
 }
+.featurette-headingFw {
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 5%;
+}
 .projects-heading{
     text-align: center;
     font-size: 50px;
@@ -90,6 +95,12 @@ body {
 #collage img{
     width: 95%;
     padding: 5%;
+    display: block;
+    margin: 0 auto;
+}
+#collagewheel img{
+    width: 95%;
+    padding: 0%;
     display: block;
     margin: 0 auto;
 }
