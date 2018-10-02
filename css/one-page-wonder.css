@@ -93,7 +93,14 @@ body {
     padding-bottom: 20px;
 }
 #collage img{
-    width: 95%;
+    width: 100%;
+    padding: 5%;
+    display: block;
+    margin: 0 auto;
+}
+}
+#collagefw img{
+    width: 5%;
     padding: 5%;
     display: block;
     margin: 0 auto;
