@@ -98,7 +98,14 @@ body {
     display: block;
     margin: 0 auto;
 }
+
+#collageplot img{
+    width: 100%;
+    padding: 5%;
+    display: block;
+    margin: 0 auto;
 }
+
 #collagefw img{
     width: 5%;
     padding: 5%;
@@ -129,7 +136,7 @@ body {
 }
 
 #kuka{
-    width: 55%;
+    width: 75%;
     height: auto;
     padding: 5%;
     display: block;
